@@ -1,11 +1,13 @@
-string  = 'mom'
+string  = 'mOom'
 revString = ''
 
-for i in string:
+lowerstring = string.casefold();
+
+for i in lowerstring:
     revString = i + revString
 print("Reversed String:", revString)
 
-if(string == revString) :
+if(lowerstring == revString) :
     print(string,"is a palindrome")
 else:
     print(string,"is not a palindrome")
