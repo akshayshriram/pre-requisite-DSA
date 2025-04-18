@@ -1,7 +1,7 @@
 string  = 'mOom'
 revString = ''
 
-lowerstring = string.casefold();
+lowerstring = string.lower();
 
 for i in lowerstring:
     revString = i + revString

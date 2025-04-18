@@ -10,8 +10,9 @@ elif(num == 1):
 else:
     while count < num:
         print(n1)
-        nth = n1 + n2
-        n1 = n2
-        n2 = nth
         count += 1
+        if(count < num):
+            nth = n1 + n2   
+            n1 = n2
+            n2 = nth
 
